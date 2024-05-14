@@ -1,0 +1,231 @@
+ body {
+     font-family: 'Dancing Script', cursive;
+     font-family: 'Roboto', sans-serif;
+     margin: 0;
+ }
+
+ #stats {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+ }
+
+ #team {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+
+ .teamDescription {
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     width: 40%;
+ }
+
+ .teamProfiles {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     width: 40%;
+     justify-content: space-evenly;
+ }
+
+ .teamProfiles img {
+     width: 45%;
+     height: auto;
+ }
+
+ #statitics {
+     display: flex;
+     flex-direction: row;
+     flex-wrap: wrap;
+     justify-content: space-around;
+ }
+
+ .meters {
+     margin: 1.5%;
+     width: 40%;
+ }
+
+ meter::-webkit-meter-optimum-value {
+     background-color: #00ff00;
+ }
+
+ .hide-left {
+     position: relative;
+     left: 100%;
+     opacity: 0;
+
+ }
+
+ .hide-right {
+     position: relative;
+     right: 100%;
+     opacity: 0;
+
+ }
+
+ #slogan {
+     display: flex;
+     background: url(Images/Team-slogan.jpg) no-repeat center center;
+     height: 75%;
+     width: 100%;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ #slogan h2 {
+     color: white;
+ }
+
+ #slogan h3 {
+     color: white;
+ }
+
+ #headLine,
+ #services,
+ #subLines,
+ .Team-pic,
+ .Team-list {
+     width: 100%;
+     display: flex;
+     align-items: center;
+     align-content: center;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+
+ #headLine,
+ #services,
+ .Team-list {
+     flex-direction: column;
+ }
+
+ .Team-pic img {
+     width: 100%;
+     height: auto;
+ }
+
+ .Team-pic,
+ .Team-list {
+     width: 45%;
+ }
+
+ #services h3,
+ #services .Team-list .Service-part :first-child {
+     color: rgb(177, 177, 83);
+ }
+
+ #services {
+     width: 85%;
+ }
+
+ .Service-part {
+     position: relative;
+ }
+
+ .container {
+     background-color: #d6d0d0;
+     padding: 5%;
+ }
+
+ #slidesmenu {
+     width: 75%;
+ }
+
+ .container,
+ #slidesmenu,
+ #routesToslides,
+ #slides,
+ .description,
+ .profile {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     align-content: center;
+     flex-wrap: wrap;
+     justify-content: space-evenly;
+ }
+
+ #routesToslides,
+ #slides {
+     flex-direction: row;
+ }
+
+ #routesToslides {
+     width: 75%;
+     padding: 1%;
+ }
+
+ #slides {
+     width: 80%;
+     background-color: #dddada;
+ }
+
+ .profile img {
+     width: 100%;
+     height: auto;
+ }
+
+
+ .description {
+     align-items: flex-start;
+     padding: 1.5%;
+ }
+
+ .description,
+ .profile {
+     width: 48.5%;
+ }
+
+ .btn {
+     font-family: Arial;
+     color: #ffffff;
+     font-size: 1em;
+     background: #d9d634;
+     padding: 2.5%;
+     text-decoration: none;
+ }
+
+ .btn:hover {
+     text-decoration: none;
+ }
+
+ #routesToslides h3 {
+     cursor: pointer;
+ }
+
+ .hide-left {
+     position: relative;
+     left: 100%;
+     opacity: 0;
+
+ }
+
+ .hide-right {
+     position: relative;
+     right: 100%;
+     opacity: 0;
+
+ }
+
+ @media (max-width :900px) {
+
+     #sublines,
+     #slides {
+         flex-direction: column;
+     }
+
+     .description,
+     .profile {
+         width: 100%;
+     }
+
+     .description {
+         width: 90%;
+     }
+
+ }
